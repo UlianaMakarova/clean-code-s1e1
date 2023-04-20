@@ -35,14 +35,14 @@
   display: flex;
 }
 .list-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .tasks-item, .section-header {
-  list-style:none;
+  list-style: none;
 }
 input,.button{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -114,7 +114,7 @@ input#new-task {
   font-size: 18px;
   width: 226px;
 }
-.tasks-item >    input[type="text"] {
+.tasks-item > input[type="text"] {
   width: 226px;
 }
 .button-delete .button-delete-image {
@@ -134,14 +134,14 @@ input#new-task {
 
 /* Edit Task */
 .list-tasks .tasks-item input[type=text] {
-  display:none;
+  display: none;
 }
 
 .list-tasks .tasks-item.editMode input[type=text] {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .list-tasks .tasks-item.editMode label {
-  display:none;
+  display: none;
 }
